@@ -234,6 +234,8 @@ so that isn't really an edit now, is it? (You will get a reminder from YMFC for 
 - The `i/INGREDIENTS...` refers to the **new list of ingredients** for the recipe 
   - NOTE: The entire current list of ingredients for the recipe is **overwritten** with the new list inputted
 - The `sn/STEPn...` refers to the new list of steps for the recipe
+  - Step numbers must be in strictly increasing order, without skipping any numbers.
+  - Duplicate numbers, missing numbers, numbers in the wrong order will be **rejected**.
   - NOTE: The entire current list of steps for the recipe is **overwritten** with the new list inputted
 - The `c/CUISINE` refers to the new cuisine you wish to edit the recipe to have
   - NOTE: Leaving CUISINE blank (by typing `c/ `) will **delete** the existing cuisine parameter of the recipe

@@ -26,14 +26,14 @@ inside
 - Created tests to ensure the proper functioning of command Classes
 - Improved on the usage example messages given during incorrect user input
 
-
 #### Contributions to the UG
 
 
 #### Contributions to the DG
 - Created a sequence diagram for the use of AddRecipeCommand
 - Added description for the section on `Command` class and its subclasses
-
+- Added more user stories
+- Created the table of contents
 
 #### Contributions to Team-Based Tasks
 - Helped routinely add new issues to work on and close issues that have been resolved
